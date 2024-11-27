@@ -105,7 +105,7 @@ ClientBin
 [Ss]tyle[Cc]op.*
 ~$*
 *.dbmdl
-Generated_Code #added for RIA/Silverlight projects
+Generated_Code
 
 # Backup & report files from converting an old project file to a newer
 # Visual Studio version. Backup files are not needed, because we have git ;-)
@@ -116,3 +116,19 @@ src/.vs/config/applicationhost.config
 
 # JetBrains Rider's auto generated files
 .idea/
+
+# ASP.NET Core specific
+appsettings.Development.json
+appsettings.json
+Migrations/
+
+# Docker related files
+.docker/
+docker-compose.override.yml
+
+# SQLite database file
+*.db
+
+# Local database files
+*.mdf
+*.ldf
